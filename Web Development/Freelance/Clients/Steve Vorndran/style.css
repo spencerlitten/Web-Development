@@ -1,0 +1,252 @@
+body
+{
+   background: url('images/matt.png') no-repeat center center fixed; 
+  /*allows the content to fit any size screen*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width:auto;
+  margin-right:-500px;
+}
+
+/*declares custom fonts*/
+@font-face{
+	font-family:Beantown;
+	src:url('fonts/Beantown.ttf');
+}
+
+@font-face{
+	font-family:Booklet Cordel;
+	src:url('fonts/Booklet Cordel.ttf');
+}
+
+@font-face{
+	font-family:carbon bl;
+	src:url('fonts/carbon bl.ttf');
+}
+
+/*
+  style rules for the Matt Vorndran Text at the top of the page
+  stretches the background to cover the entire top of the screen	
+*/
+#title
+{
+	position:absolute;
+	/*vertical-align: middle;*/
+	margin-top:-10px;
+	margin-right:900px;
+	margin-left:-10px;
+	font-size:80px;
+	background-color:#B0E0E6;
+	width:1930px;
+	color:#0099CC;
+	/*font-family:Beantown;*/
+	z-index:-1;
+	max-width:auto;
+	opacity:0.8;
+}
+
+/*Matt Vorndran title text*/
+h1
+{
+	padding-bottom:10px;
+	display:inline;
+}
+
+/*style rules for contact info to the right of the title*/
+.contact
+{
+	position:relative;
+	right:-660px;
+	/*font-family:Beantown;*/
+	font-color:orange;
+	font-size:25px;
+	display:inline;
+}
+
+/*style rules for the navigation bar*/
+#navbar
+{
+	margin-top:88px;
+	margin-left:130px;
+	padding-left:40px;
+	position:absolute;
+	background-color:#B0E0E6;
+	font-size:25px;
+	width:480px;
+	max-width:auto;
+	opacity:0.8;
+}
+
+/*align the dropdown menu at the top left of the screen*/
+ul
+{
+	margin:0px;
+	padding:0px;
+}
+
+/*displays the top links in the dropdown menu in a horizontal line*/
+li
+{
+	display:inline;
+	position:relative;
+	font-family:carbon bl;
+}
+
+/*removes underlines from all links on mouse hover*/
+li a:hover
+{
+	text-decoration:none;
+	font-color:none;
+	opacity:none;
+}
+
+/*gives adjusts the spacing for each link*/
+.submenu-one
+{
+	padding-top:20px;
+	position:absolute;
+	display:none;
+	width:270px;
+}
+
+/*displays sub menus on mouse hover*/
+li:hover ul.submenu-one
+{
+	top:100%;
+	left:0;
+	display:block;
+	background-color:#B0E0E6;
+	opacity:none;
+}
+
+/*style rules for the main content*/
+.main-content
+{
+	margin-top:300px;
+	margin-right:500px;
+	line-height:30px;
+	text-align:left;
+	position:relative;
+	max-width:auto;
+	z-index:-1;
+	color:white;
+	background-color:#0099CC;
+	width:500px;
+	padding:10px;
+	font-family:carbon bl;
+	font-size:20px;
+	opacity:0.8;
+}
+
+/*align the main content in the white box*/
+.container-fluid
+{
+	position:relative;
+	top:100px;
+	display:block;
+	height:300px;
+	width:900px;
+	background-color:#DCDCDC;
+	background-size:10px;
+	opacity:0.8;
+	max-width:auto;
+}
+
+/*style rules for the slideshow captions*/
+.carousel-inner
+{
+	margin-top:100px;
+	font-family:carbon bl;
+	size:45px;
+}
+
+/*align the images in the slideshow*/
+.carousel-inner > .item > img
+{
+	margin:auto;
+}
+
+/*specify the position of the slideshow*/
+.carousel
+{
+	/*position:static;*/
+	position:fixed;
+	max-width:auto;
+	margin-top:-2110px;
+	left:700px;
+	bottom:362px;
+	background-color:black;
+	/*z-index:-1;*/
+	opacity:0.8;
+}
+
+/*style rules for the captions on each picture*/
+.carousel-caption
+{
+	margin-top:30%;
+	margin-right:25%;
+}
+
+/*specify the style rules of the video on main page*/
+#videos
+{
+	margin-top:-300px;
+	margin-left:700px;
+}
+
+/*aligns the swing sequence slideshow below the video on the main page*/
+#swingSequence
+{
+	position:absolute;
+	margin-left:15px;
+	bottom:-1350px;
+}
+
+/*aligns the images in slideshow two*/
+#swingSequence > .item > img
+{
+	margin:auto;
+}
+
+/*specify the position of the navbar*/
+.navbar-nav
+{
+	position:static;
+	right:-200px;
+	top:5px;
+}
+
+.navbar-nav > li > a
+{
+	color:white;
+	background-color:black;
+}
+
+/*align the main content in the blue box*/
+.container-fluid
+{
+	/*
+	position:absolute;
+	margin-bottom:1300px;
+	right:-100px;
+	*/
+	background-color:#DCDCDC;
+	background-size:10px;
+	background-height:200px;
+	opacity:0.8;
+}
+
+.carousel-caption
+{
+	margin-bottom:200px;
+	font-size:30px;
+}
+
+/*align the images in the slideshow*/
+.carousel-inner > .item > img
+{
+	margin:auto;
+}
+
