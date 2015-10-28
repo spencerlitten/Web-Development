@@ -12,16 +12,6 @@ body
 
 /*declares custom fonts*/
 @font-face{
-	font-family:Beantown;
-	src:url('fonts/Beantown.ttf');
-}
-
-@font-face{
-	font-family:Booklet Cordel;
-	src:url('fonts/Booklet Cordel.ttf');
-}
-
-@font-face{
 	font-family:carbon bl;
 	src:url('fonts/carbon bl.ttf');
 }
@@ -59,7 +49,6 @@ h1
 {
 	position:relative;
 	right:-660px;
-	/*font-family:Beantown;*/
 	font-color:orange;
 	font-size:25px;
 	display:inline;
